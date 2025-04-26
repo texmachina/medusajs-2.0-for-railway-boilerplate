@@ -1,3 +1,6 @@
+import { QUOTE_MODULE } from "./src/modules/quote";
+import { APPROVAL_MODULE } from "./src/modules/approval";
+import { COMPANY_MODULE } from "./src/modules/company";
 import { loadEnv, Modules, defineConfig } from '@medusajs/utils';
 import {
   ADMIN_CORS,
@@ -45,6 +48,18 @@ const medusaConfig = {
     disable: SHOULD_DISABLE_ADMIN,
   },
   modules: [
+    {
+      key: Modules.COMPANY_MODULE,
+      resolve: "./src/modules/company"
+    },
+    {
+      key: Modules.QUOTE_MODULE,
+      resolve: "./src/modules/quote"
+    },
+    {
+      key: Modules.APPROVAL_MODULE,
+      resolve: "./src/modules/approval"
+    },
     {
       key: Modules.FILE,
       resolve: '@medusajs/file',
