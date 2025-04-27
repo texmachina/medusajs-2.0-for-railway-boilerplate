@@ -1,6 +1,3 @@
-import { QUOTE_MODULE } from "./src/modules/quote";
-import { APPROVAL_MODULE } from "./src/modules/approval";
-import { COMPANY_MODULE } from "./src/modules/company";
 import { loadEnv, Modules, defineConfig } from '@medusajs/utils';
 import {
   ADMIN_CORS,
