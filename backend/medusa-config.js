@@ -1,3 +1,6 @@
+import {COMPANY_MODULE} from "modules/company";
+import {QUOTE_MODULE} from "modules/quote";
+import {APPROVAL_MODULE} from "modules/approval";
 import { loadEnv, Modules, defineConfig } from '@medusajs/utils';
 import {
   ADMIN_CORS,
@@ -46,15 +49,15 @@ const medusaConfig = {
   },
   modules: [
     {
-      key: Modules.COMPANY_MODULE,
+      key: COMPANY_MODULE,
       resolve: "./src/modules/company"
     },
     {
-      key: Modules.QUOTE_MODULE,
+      key: QUOTE_MODULE,
       resolve: "./src/modules/quote"
     },
     {
-      key: Modules.APPROVAL_MODULE,
+      key: APPROVAL_MODULE,
       resolve: "./src/modules/approval"
     },
     {
