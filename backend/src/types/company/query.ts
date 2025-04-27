@@ -1,6 +1,6 @@
 import { CustomerDTO } from "@medusajs/types";
-import { ModuleCompany, ModuleEmployee } from "./module";
-import { QueryApprovalSettings } from "../approval/query";
+import { ModuleCompany, ModuleEmployee } from "types";
+import { QueryApprovalSettings } from "types";
 import { HttpTypes } from "@medusajs/framework/types";
 
 export type QueryCompany = ModuleCompany & {

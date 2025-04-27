@@ -12,7 +12,7 @@ import {
   ModuleEmployee,
   ModuleUpdateCompany,
   ModuleUpdateEmployee,
-} from "./module";
+} from "types";
 
 export interface ModuleCompanyFilters
   extends BaseFilterable<ModuleCompanyFilters> {

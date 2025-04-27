@@ -2,7 +2,7 @@
 
 import { CustomerGroupDTO } from "@medusajs/framework/types";
 import { CustomerDTO } from "@medusajs/types/dist/customer/common";
-import { ModuleApprovalSettings } from "../approval/module";
+import { ModuleApprovalSettings } from "types";
 
 export enum ModuleCompanySpendingLimitResetFrequency {
   NEVER = "never",

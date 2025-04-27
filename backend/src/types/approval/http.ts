@@ -1,10 +1,10 @@
-import { QueryCompany } from "../company/query";
-import { ApprovalStatusType, ApprovalType } from "./module";
+import { QueryCompany } from "types";
+import { ApprovalStatusType, ApprovalType } from "types";
 import {
   QueryApproval,
   QueryApprovalSettings,
   QueryApprovalStatus,
-} from "./query";
+} from "types";
 import { HttpTypes } from "@medusajs/types";
 
 /* Admin */

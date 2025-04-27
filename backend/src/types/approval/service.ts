@@ -14,7 +14,7 @@ import {
   ModuleCreateApprovalStatus,
   ModuleApprovalStatus,
   ModuleUpdateApprovalStatus,
-} from "./module";
+} from "types";
 
 export interface ModuleApprovalSettingsFilters
   extends BaseFilterable<ModuleApprovalSettingsFilters> {

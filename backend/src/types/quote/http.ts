@@ -3,8 +3,8 @@ import {
   FindParams,
   PaginatedResponse,
 } from "@medusajs/types";
-import { QueryQuote } from "./query";
-import { ModuleQuoteFilters } from "./service";
+import { QueryQuote } from "types";
+import { ModuleQuoteFilters } from "types";
 
 /* Filters */
 

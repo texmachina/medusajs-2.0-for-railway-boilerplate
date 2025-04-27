@@ -2,7 +2,7 @@ import {
   ModuleApprovalSettings,
   ModuleApproval,
   ModuleApprovalStatus,
-} from "./module";
+} from "types";
 
 export type QueryApprovalSettings = ModuleApprovalSettings;
 

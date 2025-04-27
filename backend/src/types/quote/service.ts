@@ -10,7 +10,7 @@ import {
   ModuleQuote,
   ModuleQuoteMessage,
   ModuleUpdateQuote,
-} from "./module";
+} from "types";
 
 export interface ModuleQuoteFilters extends BaseFilterable<ModuleQuoteFilters> {
   q?: string;

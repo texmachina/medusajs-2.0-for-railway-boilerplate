@@ -4,8 +4,8 @@ import {
   AdminUser,
   StoreCart,
 } from "@medusajs/types";
-import { ModuleQuote, ModuleQuoteMessage } from "./module";
-import { QueryEmployee } from "../company";
+import { ModuleQuote, ModuleQuoteMessage } from "types";
+import { QueryEmployee } from "types";
 
 export type QueryQuote = ModuleQuote & {
   draft_order: AdminOrder;

@@ -1,7 +1,7 @@
 import { FindParams, PaginatedResponse } from "@medusajs/types";
-import { QueryCompany, QueryEmployee } from "./query";
-import { ModuleCompanyFilters, ModuleEmployeeFilters } from "./service";
-import { ModuleCompanySpendingLimitResetFrequency } from "./module";
+import { QueryCompany, QueryEmployee } from "types";
+import { ModuleCompanyFilters, ModuleEmployeeFilters } from "types";
+import { ModuleCompanySpendingLimitResetFrequency } from "types";
 
 /* Filters */
 
